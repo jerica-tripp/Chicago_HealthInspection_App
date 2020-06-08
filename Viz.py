@@ -12,7 +12,7 @@ from dash.dependencies import Input, Output, State
 client = Socrata("data.cityofchicago.org",
     "XEXKzTKTGiNQ6ipSHWSUDRfly",
     username="jerica.tripp@yahoo.com",
-    password="iForgot_22")
+    password="secretttt")
 
 results = client.get("4ijn-s7e5")
 df = pd.DataFrame.from_records(results)
